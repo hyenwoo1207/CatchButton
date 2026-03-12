@@ -9,6 +9,7 @@ namespace CatchButton1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("축하합니다");
         }
 
         private void RunningButton1(object sender, EventArgs e)
