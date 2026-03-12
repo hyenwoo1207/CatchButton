@@ -9,7 +9,11 @@ namespace CatchButton1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //버튼 클릭후 축하합니다라는 메세지 창이 나오게 수정
             MessageBox.Show("축하합니다");
+            int score = 0;
+            score++;
+            button1.Text = "점수 : " + score;
         }
 
         private void RunningButton1(object sender, EventArgs e)
